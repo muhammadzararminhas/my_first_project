@@ -33,6 +33,5 @@ jobs:
       - name: install surge
         run: npm install -g surge
       - name: deploy surge
-        run:  suge ./ first_projects.surge.sh --token $ {{secret.ZARAR_DEV}}
-          echo Add other actions to build,
-          echo test, and deploy your project.
+        run:  surge ./ first_projects.surge.sh --token $ {{secret.ZARAR_DEV}}
+          
